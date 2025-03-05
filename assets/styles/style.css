@@ -117,6 +117,37 @@ nav {
      border-bottom: 1px solid #3a3a3a;
 }
 
+#reasons {
+    width: 90%;
+    margin: 20px auto 20px;
+}
+
+#reasons h2 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 280%;
+    margin-bottom: 20px;
+}
+
+#benefits div h3 {
+    text-transform: uppercase;
+    left: 0;
+}
+
+#benefits div hr {
+    border-top: 1px solid #3a3a3a;
+    margin: 5px 0;
+}
+
+#benefits div p {
+    padding: 0 20px;
+}
+
+#benefits div {
+    margin-bottom: 20px;
+    line-height: 20px;
+}
+
 @media screen and (min-width: 768px) {
     nav {
         display: block;
