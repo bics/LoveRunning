@@ -30,7 +30,27 @@
     </header>
 
     <main>
-        
+        <section id="signup">
+            <form action="https://formdump.codeinstitute.net" id="signup-form" method="POST">
+                <h2>lets get you signed up!</h2>
+
+                <label for="first-name">First Name</label>
+                <input type="text" required id="first-name" name="first-name"><br>
+                <label for="last-name">Last Name</label>
+                <input type="text" required id="last-name" name="last-name"><br>
+                <label for="email-address">Email Address</label>
+                <input type="email" required id="email-address" name="email-address"><br>
+
+                <label for="road">Road</label>
+                <input type="radio" required name="running-preference" value="road" id="road"><br>
+                <label for="trail">Trail</label>
+                <input type="radio" required name="running-preference" value="trail" id="trail"><br>
+                <label for="both">Both</label>
+                <input type="radio" required name="running-preference" value="both" id="both"><br>
+
+                <input type="submit" value="Let's Run!" class="join-button">
+            </form>
+        </section>
     </main>
 
     <footer>
